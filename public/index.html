@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: #FF6100;
+         --df-messenger-button-titlebar-color: #FF6100;
+         --df-messenger-chat-background-color: #fafafa;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #001133;
+         --df-messenger-user-message:  #AECECD;
+         --df-messenger-input-placeholder-font-color: black;
+         
+        }
+      </style>
+</head>
+<body>
+    <h1>Chatbot Kevin Lopez</h1>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Help Desk"
+  chat-icon="Maya.png"
+  agent-id="9d8caf1d-995c-4996-aa3e-d3581f3f1b5e"
+  language-code="en"
+></df-messenger>
+<script type="text/javascript" src="./chatbot.js"></script>
+</body>
+</html>
