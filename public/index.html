@@ -20,13 +20,20 @@
       </style>
 </head>
 <body>
-    <h1>Chatbot Kevin Lopez</h1>
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <div style="text-align: right;">
+      Language:&nbsp;
+      <select name="loginLanguageSelector$languageDropDownList" id="loginLanguageSelector_languageDropDownList" class="valid">
+      <option selected="selected" value="en-us">English</option>
+      <option value="es-mx">Español</option>   
+    </select>
+    </div>
+    <h1 ></h1>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
-  chat-title="Help Desk"
+  chat-title="Maya Agent Chatbot"
   chat-icon="Maya.png"
-  agent-id="9d8caf1d-995c-4996-aa3e-d3581f3f1b5e"
+  agent-id="bbf3219d-2d4e-4d6f-9cd9-f618a618f162"
   language-code="en"
 ></df-messenger>
 <script type="text/javascript" src="./chatbot.js"></script>
